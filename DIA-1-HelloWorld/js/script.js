@@ -4,7 +4,7 @@ window.onload = () => {
   var html = tag.innerHTML;
   tag.setAttribute("data", html);
   var txt = tag.getAttribute("data");
-  var speed = 400;
+  var speed = 250;
 
   function typeWriter() {
     if (i <= txt.length) {
