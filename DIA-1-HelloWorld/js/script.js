@@ -17,7 +17,7 @@ window.onload = () => {
   typeWriter();
 
   document.getElementById('button-restart').addEventListener('click', () => {
-    typeWriter();
+    document.location.reload(true)
   })
 }
 
